@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software, cite the versioned software release and companion dataset."
+type: software
+title: "River-drought event-boundary analysis"
+version: 1.0.0
+date-released: 2026-10-13
+authors:
+  - family-names: Amanambu
+    given-names: Amobichukwu C.
+    affiliation: University of Alabama
+  - family-names: Obaremi
+    given-names: Omon A.
+    affiliation: Kent State University
+license: MIT
+keywords:
+  - hydrological drought
+  - meteorological drought
+  - drought propagation
+  - drought recovery
+  - event matching

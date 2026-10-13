@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=75", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "river-drought-boundaries"
+version = "1.0.0"
+description = "Reproducible event-boundary analysis of meteorological and river droughts"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [
+  {name = "Amobichukwu C. Amanambu"},
+  {name = "Omon A. Obaremi"},
+]
+dependencies = [
+  "numpy>=2.0,<3",
+  "pandas>=2.2,<4",
+  "scipy>=1.13,<2",
+  "scikit-learn>=1.5,<2",
+  "pyarrow>=17,<26",
+  "statsmodels>=0.14,<1",
+]
+
+[project.scripts]
+river-drought-validate = "river_drought_boundaries.validate:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"

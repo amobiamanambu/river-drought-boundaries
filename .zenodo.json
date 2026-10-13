@@ -1,0 +1,25 @@
+{
+  "title": "River-drought event-boundary analysis",
+  "upload_type": "software",
+  "publication_date": "2026-10-13",
+  "description": "Reproducible software for detecting meteorological and river-drought events, classifying river state at event boundaries, assigning one-to-one onset associations and analysing post-termination outcomes.",
+  "creators": [
+    {
+      "name": "Amanambu, Amobichukwu C.",
+      "affiliation": "University of Alabama"
+    },
+    {
+      "name": "Obaremi, Omon A.",
+      "affiliation": "Kent State University"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "hydrological drought",
+    "meteorological drought",
+    "drought propagation",
+    "drought recovery",
+    "event matching"
+  ],
+  "access_right": "open"
+}

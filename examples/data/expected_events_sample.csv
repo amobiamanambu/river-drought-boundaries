@@ -1,0 +1,5 @@
+GAGE_ID,timescale,met_onset,met_termination,river_preexisting_at_met_onset,assigned_hyd_onset,onset_pathway,termination_state,river_active_at_met_termination
+01011000,3,2018-07-01,2018-09-01,False,2018-08-01,new_onset_by_confirmation,river_active_at_met_termination,True
+01011000,3,2020-06-01,2020-09-01,False,,no_new_river_onset_within_window,no_matched_river_drought,False
+01011000,6,2020-08-01,2020-11-01,False,,no_new_river_onset_within_window,no_matched_river_drought,False
+01011000,6,2021-08-01,2022-01-01,True,,river_already_in_drought,river_active_at_met_termination,True
